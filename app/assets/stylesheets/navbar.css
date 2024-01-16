@@ -1,0 +1,64 @@
+.nav {
+  width: 100vw;
+  height: 4rem;
+  background-color: #1e293b;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 3rem;
+}
+
+.reg-link {
+  color: #71a8fa;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50px;
+  }
+
+  .first-div {
+    margin-top: 0.5rem;
+  }
+
+  .sec-div {
+    display: flex;
+  }
+
+  .icon {
+    margin-right: 1rem;
+  }
+
+  .profile-click {
+    width: 8rem;
+    text-align: center;
+    height: 9rem;
+    display: none;
+    flex-direction: column;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    position: relative;
+    left: 88%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50px;
+  }
+
+  .first-div {
+    margin-top: 0.5rem;
+  }
+
+  .sec-div {
+    display: flex;
+  }
+}
