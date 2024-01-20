@@ -13,6 +13,7 @@
     
     <% if user_signed_in? %>
       <div class="sec-div">
+        <%= link_to "Log Out", destroy_user_session_path, data: { "turbo-method": :delete }, class: "btn btn-primary" %>
         <lord-icon
           src="https://cdn.lordicon.com/vspbqszr.json"
           trigger="hover"
@@ -38,3 +39,4 @@
     <a href="#" class="block px-4 py-2 my-4 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
     </div>
 </nav>
+
